@@ -1,0 +1,101 @@
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+
+
+/* Navbar css ----------------------------------------------------- */
+.NavbarMainBox{
+  /* border: 1px solid red; */
+  display: flex;
+  height: 100px;
+   width: 100%;
+  /* position:fixed; */
+  background:white;
+  justify-content:space-around;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+ 
+ 
+}
+
+.NavImg{
+  /* border: 1px solid red;  */
+   height: 80%;
+   margin: auto;
+   margin-top: 2%;
+}
+.SignBox{
+  /* border: 1px solid red; */
+  width: 100%;
+  text-align: center;
+  align-items: center;
+  /* right: -20px; */
+  margin-left: 17%;
+}
+
+
+
+
+@media all and (min-width:451px) and (max-width:850px){
+
+  .NavbarMainBox{
+    /* border: 1px solid red; */
+    display: flex;
+    height: 80px;
+    width: 100%;
+    position:fixed;
+    background:white;
+    justify-content: space-evenly;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+   
+  }
+  
+  .NavImg{
+     height: 80%;
+     margin: auto;
+     margin-top: 2%;
+  }
+  
+  .SignBox{
+    /* border: 1px solid red; */
+    width: 100%;
+    /* gap: -0px; */
+    
+  }
+}
+
